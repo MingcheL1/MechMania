@@ -1,0 +1,7 @@
+/*
+!/src/
+/src/*
+!/src/strategy/
+**/target/
+!/mm-config.toml
+!/.gitignore
