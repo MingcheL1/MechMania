@@ -119,3 +119,9 @@ fn basic_strategy(state: &GameState) -> FleetAction {
 
     action
 }
+
+fn queenWalk(){
+    //Have one bot to be the distractor
+    //Assuming the enemy bots targets the closest bot, have our bot run straight into the enemy team
+    //Stack healers on the distraction bot, since bots have Iframe if we stack enough healers it should heal infinitely
+}
