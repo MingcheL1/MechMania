@@ -5,3 +5,4 @@
 **/target/
 !/mm-config.toml
 !/.gitignore
+!/.editorconfig
