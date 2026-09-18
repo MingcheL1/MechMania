@@ -11,7 +11,7 @@ pub fn get_strategy(team: u8) -> Strategy {
         return Box::new(basic_strategy)
     } else {
         println!("Hello! I am team B (on the top right)");
-        return Box::new(do_nothing)
+        return Box::new(basic_strategy)
     }
 
     // NOTE when actually submitting your bot, you probably want to have the SAME strategy
